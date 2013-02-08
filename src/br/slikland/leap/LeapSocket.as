@@ -11,16 +11,16 @@ package br.slikland.leap
 	import flash.net.Socket;
 	import flash.utils.ByteArray;
 
-	/**
-	 * @author keita
-	 */
-	
 	[Event(name="connect", type="flash.events.Event")]
 	[Event(name="socketData", type="flash.events.ProgressEvent")]
 	[Event(name="close", type="flash.events.Event")]
 	[Event(name="ioError", type="flash.events.IOErrorEvent")]
 	[Event(name="securityError", type="flash.events.SecurityErrorEvent")]
 	[Event(name="leapData", type="br.slikland.leap.events.LeapEvent")]
+
+	/**
+	 * @author keita@slikland.com
+	 */
 	public class LeapSocket extends EventDispatcher
 	{
 		private var _socket:Socket;

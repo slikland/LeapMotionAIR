@@ -3,7 +3,7 @@ package br.slikland.leap.events
 	import flash.events.Event;
 
 	/**
-	 * @author keita
+	 * @author keita@slikland.com
 	 */
 	public class LeapEvent extends Event
 	{
